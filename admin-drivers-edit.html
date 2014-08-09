@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>GoEasyTaxi</title>
+	<!-- Mobile device set -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Fav and touch icons -->
+	<link rel="shortcut icon" href="images/ico/favicon.ico">
+
+	<!-- Style -->
+	<link href="stylesheets/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<!-- header driver
+================================================== -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">GoEasyTaxi</a>
+		</div><!-- /navbar-header -->
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<h2 class="navbar-left m-left-1">管理員管理介面</h2>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div class="nav navbar-nav navbar-right">
+				<button type="button" class="btn btn-default navbar-btn" >登出</button>
+			</div>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container -->
+</nav><div class="container">
+	<ol class="breadcrumb m-top-3">
+		<li><a href="admin-drivers.html">管理員管理界面</a></li>
+		<li><a href="admin-drivers.html">司機管理</a></li>
+		<li class="active">編輯</li>
+	</ol><!-- /breadcrumb -->
+	<div class="row m-bottom-3">
+		<div class="col-sm-3">
+			<!-- admin-menu
+================================================== -->
+<div class="list-group">
+	<a class="list-group-item" href="#">帳務管理</a>
+	<a class="list-group-item" href="admin-orders.html">訂單管理</a>
+	<a class="list-group-item" href="admin-drivers.html">司機管理</a>
+	<a class="list-group-item" href="#">企業客戶管理</a>
+	<a class="list-group-item" href="#">合作廠商管理</a>
+</div><!-- /list-group -->
+		</div><!-- /col-sm-3 -->
+		<div class="col-sm-9">
+			<ul class="nav nav-tabs nav-justified" role="tablist">
+				<li class="active"><a href="#tab-one" role="tab" data-toggle="tab">帳號與資料</a></li>
+				<li><a href="#tab-two" role="tab" data-toggle="tab">車輛照片</a></li>
+				<li><a href="#tab-three" role="tab" data-toggle="tab">詳細說明</a></li>
+			</ul><!-- /nav-tabs -->
+			<div class="tab-content content-block p-30">
+				<div class="tab-pane fade in active" id="tab-one">
+					<h4 class="text-yellow">司機帳號設定</h4>
+					<form class="form-horizontal" role="form">
+						<div class="form-group">
+							<label class="col-sm-3 control-label">登入身分證字號</label>
+							<div class="col-sm-5">
+								<input type="text" class="form-control" value="A123456789">
+							</div><!-- /col-sm-5 -->
+							<div class="col-sm-4">
+								<span class="help-block">登入帳號為您的身分證字號</span>
+							</div><!-- /col-sm-4 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">登入車牌號碼</label>
+							<div class="col-sm-5">
+								<input type="text" class="form-control" value="ABC-123">
+							</div><!-- /col-sm-5 -->
+							<div class="col-sm-4">
+								<span class="help-block">登入密碼預設為您的車牌號碼</span>
+							</div><!-- /col-sm-4 -->
+						</div><!-- /form-group -->
+					</form><!-- /form-horizontal -->
+					<hr class="m-top-2 m-bottom-2">
+					<h4 class="text-yellow">司機姓名與聯繫資料</h4>
+					<form class="form-horizontal" role="form">
+						<div class="form-group">
+							<label class="col-sm-3 control-label">司機照片</label>
+							<div class="col-sm-7">
+								<div class="row">
+									<div class="col-sm-4">
+										<img src="images/driver-img-1.jpg" class="img-circle img-responsive img-thumbnail">
+									</div><!-- /col-sm-4 -->
+									<div class="col-sm-8">
+										<button type="button" class="btn btn-primary m-top-2">選擇照片</button>
+									</div><!-- /col-sm-8 -->
+								</div><!-- /row -->
+							</div><!-- /col-sm-7 -->
+							<div class="col-sm-7 col-sm-offset-3">
+								<span class="help-block">建議尺寸 160px * 160px 以上</span>
+							</div><!-- /col-sm-7 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">司機姓名</label>
+							<div class="col-sm-5">
+								<input type="text" class="form-control" value="王大明">
+							</div><!-- /col-sm-5 -->
+							<div class="col-sm-4">
+								<span class="help-block">help-text</span>
+							</div><!-- /col-sm-4 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">聯絡電話</label>
+							<div class="col-sm-5">
+								<input type="text" class="form-control" value="+886 912 333666">
+							</div><!-- /col-sm-5 -->
+							<div class="col-sm-4">
+								<span class="help-block">help-text</span>
+							</div><!-- /col-sm-4 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">服務時間</label>
+							<div class="col-sm-2">
+								<input type="time" class="form-control" placeholder="Time input">
+							</div><!-- /col-sm-2 -->
+							<div class="col-sm-1 text-center">
+								<label class="control-label">至</label>
+							</div><!-- /col-sm-1 -->
+							<div class="col-sm-2">
+								<input type="time" class="form-control" placeholder="Time input">
+							</div><!-- /col-sm-2 -->
+							<div class="col-sm-4">
+								<span class="help-block">help-text</span>
+							</div><!-- /col-sm-4 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Email</label>
+							<div class="col-sm-5">
+								<input type="email" class="form-control" value="damingwang@gmail.com">
+							</div><!-- /col-sm-5 -->
+							<div class="col-sm-4">
+								<span class="help-block">help-text</span>
+							</div><!-- /col-sm-4 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">LINE ID</label>
+							<div class="col-sm-5">
+								<input type="text" class="form-control" value="damingwang">
+							</div><!-- /col-sm-5 -->
+							<div class="col-sm-4">
+								<span class="help-block">help-text</span>
+							</div><!-- /col-sm-4 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">WeChat ID</label>
+							<div class="col-sm-5">
+								<input type="text" class="form-control" value="damingwang">
+							</div><!-- /col-sm-5 -->
+							<div class="col-sm-4">
+								<span class="help-block">help-text</span>
+							</div><!-- /col-sm-4 -->
+						</div><!-- /form-group -->
+					</form><!-- /form-horizontal -->
+					<hr class="m-top-2 m-bottom-2">
+					<h4 class="text-yellow">營業登記證</h4>
+					<form class="form-horizontal" role="form">
+						<div class="form-group">
+							<label class="col-sm-3 control-label">營業登記證</label>
+							<div class="col-sm-9">
+								<div class="row">
+									<div class="col-sm-3">
+										<img src="images/driver-credential.jpg" class="img-responsive">
+									</div><!-- /col-sm-3 -->
+									<div class="col-sm-9">
+										<button type="button" class="btn btn-primary m-top-2">選擇照片</button>
+									</div><!-- /col-sm-9 -->
+								</div><!-- /row -->
+							</div><!-- /col-sm-9 -->
+						</div><!-- /form-group -->
+					</form><!-- /form-horizontal -->
+					<hr class="m-top-2 m-bottom-2">
+					<h4 class="text-yellow">司機詳細資料</h4>
+					<form class="form-horizontal" role="form">
+						<div class="form-group">
+							<label class="col-sm-3 control-label">性別</label>
+							<div class="col-sm-5">
+								<label class="radio-inline">
+									<input type="radio" id="inlineRadio1" value="option1"> 男
+								</label>
+								<label class="radio-inline">
+									<input type="radio" id="inlineRadio2" value="option2"> 女
+								</label>
+							</div><!-- /col-sm-5 -->
+							<div class="col-sm-4">
+								<span class="help-block">help-text</span>
+							</div><!-- /col-sm-4 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">車牌號碼</label>
+							<div class="col-sm-5">
+								<input type="text" class="form-control" value="ABC-123">
+							</div><!-- /col-sm-5 -->
+							<div class="col-sm-4">
+								<span class="help-block">help-text</span>
+							</div><!-- /col-sm-4 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">車款形式</label>
+							<div class="col-sm-5">
+								<input type="text" class="form-control" value="Toyota Wish">
+							</div><!-- /col-sm-5 -->
+							<div class="col-sm-4">
+								<span class="help-block">help-text</span>
+							</div><!-- /col-sm-4 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">開始駕駛年份</label>
+							<div class="col-sm-5">
+								<select class="form-control">
+									<option>1992</option>
+									<option>2</option>
+								</select>
+							</div><!-- /col-sm-5 -->
+							<div class="col-sm-4">
+								<span class="help-block">help-text</span>
+							</div><!-- /col-sm-4 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">導覽服務</label>
+							<div class="col-sm-5">
+								<select class="form-control">
+									<option>不指定</option>
+									<option>有提供</option>
+									<option>無提供</option>
+								</select>
+							</div><!-- /col-sm-5 -->
+							<div class="col-sm-4">
+								<span class="help-block">help-text</span>
+							</div><!-- /col-sm-4 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">語言能力</label>
+							<div class="col-sm-5">
+								<div class="row">
+									<div class="col-xs-4 text-left control-label">
+										&lt;&lt;不太會
+									</div><!-- /col-xs-4 -->
+									<div class="col-xs-4 text-center control-label">
+										一般般
+									</div><!-- /col-xs-4 -->
+									<div class="col-xs-4 text-right control-label">
+										非常流利&gt;&gt;
+									</div><!-- /col-xs-4 -->
+								</div><!-- /row -->
+							</div><!-- /col-sm-5 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">中文</label>
+							<div class="col-sm-5">
+								<div class="row">
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+								</div><!-- /row -->
+							</div><!-- /col-sm-5 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">英文</label>
+							<div class="col-sm-5">
+								<div class="row">
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+								</div><!-- /row -->
+							</div><!-- /col-sm-5 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">日文</label>
+							<div class="col-sm-5">
+								<div class="row">
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+								</div><!-- /row -->
+							</div><!-- /col-sm-5 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">粵語</label>
+							<div class="col-sm-5">
+								<div class="row">
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+									<div class="col-xs-2 text-ctnter control-label">
+										<input type="radio" value="option1">
+									</div><!-- /col-xs-2 -->
+								</div><!-- /row -->
+							</div><!-- /col-sm-5 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">其他語言能力</label>
+							<div class="col-sm-5">
+								<input type="text" class="form-control" value="我會說法文">
+							</div><!-- /col-sm-5 -->
+							<div class="col-sm-4">
+								<span class="help-block">help-text</span>
+							</div><!-- /col-sm-4 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">無菸車</label>
+							<div class="col-sm-5">
+								<select class="form-control">
+									<option>乘客可抽煙</option>
+									<option>2</option>
+								</select>
+							</div><!-- /col-sm-5 -->
+							<div class="col-sm-4">
+								<span class="help-block">help-text</span>
+							</div><!-- /col-sm-4 -->
+						</div><!-- /form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">WiFi 上網</label>
+							<div class="col-sm-5">
+								<select class="form-control">
+									<option>免費 WiFi</option>
+									<option>2</option>
+								</select>
+							</div><!-- /col-sm-5 -->
+							<div class="col-sm-4">
+								<span class="help-block">help-text</span>
+							</div><!-- /col-sm-4 -->
+						</div><!-- /form-group -->
+					</form><!-- /form-horizontal -->
+					<hr class="m-top-2 m-bottom-2">
+					<div class="text-right">
+						<button type="button" class="btn btn-link btn-delete">刪除司機</button>
+						<button type="button" class="btn btn-primary">儲存修改</button>
+					</div><!-- /text-right -->
+				</div><!-- /tab-pane -->
+				<div class="tab-pane fade" id="tab-two">
+					<h4 class="text-yellow m-bottom-2">司機帳號設定</h4>
+					<div class="row text-center">
+						<div class="col-md-8 col-md-offset-2">
+							<div class="well">
+								<span class="glyphicon glyphicon-cloud-upload text-xl m-bottom-1"></span>
+								<p>
+									將照片拖曳到這裡開始上傳<br>
+									您最多可以選擇 5 張照片
+								</p>
+							</div><!-- /well -->
+							<p>建議照片寬到 800px 以上</p>
+						</div><!-- /col-md-8 -->
+					</div><!-- /row -->
+					<hr class="m-top-2 m-bottom-2">
+					<h4 class="text-yellow m-bottom-2">照片 1</h4>
+					<div class="row text-center">
+						<div class="col-md-10 col-md-offset-1">
+							<img src="images/driver-car-1.jpg" class="img-responsive m-bottom-1">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="輸入照片標題">
+							</div><!-- /form-group -->
+						</div><!-- /col-md-9 -->
+					</div><!-- /row -->
+					<hr class="m-top-2 m-bottom-2">
+					<h4 class="text-yellow m-bottom-2">照片 2</h4>
+					<div class="row text-center">
+						<div class="col-md-10 col-md-offset-1">
+							<img src="images/driver-car-1.jpg" class="img-responsive m-bottom-1">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="輸入照片標題">
+							</div><!-- /form-group -->
+						</div><!-- /col-md-9 -->
+					</div><!-- /row -->
+					<div class="text-right m-top-2">
+						<button type="button" class="btn btn-primary">儲存修改</button>
+					</div><!-- /text-right -->
+				</div><!-- /tab-pane -->
+				<div class="tab-pane fade" id="tab-three">
+					<h4 class="text-yellow m-bottom-2">編輯司機詳細說明</h4>
+					<p>（放編輯器）</p>
+					<div class="text-right m-top-2">
+						<button type="button" class="btn btn-primary">儲存修改</button>
+					</div><!-- /text-right -->
+				</div><!-- /tab-pane -->
+			</div><!-- /tab-content -->
+
+		</div><!-- /col-sm-9 -->
+	</div><!-- /row -->
+</div><!-- /container -->
+	<!-- Footer
+================================================== -->
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-sm-6">
+				<img src="images/logo-w.png" class="m-bottom-1">
+				<p class="m-bottom-1">Copyright © EASY TAXI 2014. All Rights Reserved.</p>
+			</div><!-- /col-lg-8 -->
+			<div class="col-lg-4 col-sm-6">
+				<form class="form-inline m-bottom-1" role="form">
+					<div class="form-group">
+						<label class="m-right-1">網站語系選擇</label>
+						<div class="btn-group dropup">
+							<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
+								<span class="flags-tw"></span>繁體中文 <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#"><span class="flags-tw"></span>繁體中文</a></li>
+								<li><a href="#"><span class="flags-cn"></span>简体中文</a></li>
+								<li><a href="#"><span class="flags-jp"></span>日本语</a></li>
+								<li><a href="#"><span class="flags-en"></span>English</a></li>
+							</ul>
+						</div><!-- /btn-group -->
+					</div><!-- /form-group -->
+				</form>
+				<ul class="list-inline">
+					<li><a href="about.html">關於 GO EZ 小黃車隊</a></li>
+					<li class="divider-vertical"></li>
+					<li><a href="contact.html">聯系我們</a></li>
+					<li class="divider-vertical"></li>
+					<li><a href="privacy.html">法律及隱私聲明</a></li>
+				</ul>
+			</div><!-- /col-lg-4 -->
+		</div><!-- /row -->
+	</div>
+</footer>
+	<!-- Modal-login
+================================================== -->
+<div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="myModalLabel">查詢我的預約</h4>
+			</div><!-- /modal-header -->
+			<div class="modal-body">
+				<p>請輸入您的的 Eamil 與交易編號查詢訂單。</p>
+				<div class="row m-top-2">
+					<div class="col-sm-10 col-sm-offset-1">
+						<form role="form">
+							<div class="form-group">
+								<input type="email" class="form-control" placeholder="Email">
+							</div><!-- /form-group -->
+							<div class="form-group">
+								<div class="input-group">
+									<input type="text" class="form-control" placeholder="交易編號">
+									<span class="input-group-btn">
+										<a class="btn btn-primary" href="passenger-orders.html">查詢</a>
+									</span>
+								</div><!-- /input-group -->
+							</div><!-- /form-group -->
+						</form>
+					</div><!-- /col-sm-10 -->
+				</div><!-- /row -->
+			</div><!-- /modal-body -->
+			<div class="modal-footer">
+				<div class="col-sm-10 col-sm-offset-1">
+					<a href="login-driver.html" class="btn btn-dark btn-block m-top-1 m-bottom-1">司機登入</a>
+					<a href="login-company.html" class="btn btn-dark btn-block m-top-1 m-bottom-1">合作廠商登入</a>
+				</div><!-- /col-sm-10 -->
+			</div><!-- /modal-footer -->
+		</div><!-- /modal-content -->
+	</div><!-- /modal-dialog -->
+</div><!-- /modal-login -->
+
+<!-- Modal-driver-credential
+================================================== -->
+<div class="modal fade" id="modal-driver-credential" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="myModalLabel">營業登記證</h4>
+			</div><!-- /modal-header -->
+			<div class="modal-body">
+				<img src="images/driver-credential.jpg" class="img-responsive">
+			</div><!-- /modal-body -->
+		</div><!-- /modal-content -->
+	</div><!-- /modal-dialog -->
+</div><!-- /modal-driver-credential -->
+
+<!-- modal-driver-note
+================================================== -->
+<div class="modal fade" id="modal-driver-note" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="myModalLabel">給司機的備忘錄：張大明</h4>
+			</div><!-- /modal-header -->
+			<div class="modal-body">
+				<h4 class="text-yellow">接機行程備忘錄</h4>
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+						<label class="col-sm-4 control-label">航班號碼</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control">
+						</div>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label class="col-sm-4 control-label">班機起飛時間</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control">
+						</div>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label class="col-sm-4 control-label">到達時間</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control">
+						</div>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label class="col-sm-4 control-label">航廈</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control">
+						</div>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label class="col-sm-4 control-label">搭車人數</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control">
+						</div>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label class="col-sm-4 control-label">備註</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control">
+						</div>
+					</div><!-- /form-group -->
+				</form>
+				<h4 class="text-yellow">旅遊接送備忘錄</h4>
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+						<label class="col-sm-4 control-label">接送地點</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control">
+						</div>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label class="col-sm-4 control-label">接送時間</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control">
+						</div>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label class="col-sm-4 control-label">備註</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control">
+						</div>
+					</div><!-- /form-group -->
+				</form>
+			</div><!-- /modal-body -->
+			<div class="modal-footer">
+				<div class="col-sm-8 col-sm-offset-2">
+					<button type="button" class="btn btn-primary btn-block" data-dismiss="modal">完成</button>
+				</div><!-- /col-sm-10 -->
+			</div><!-- /modal-footer -->
+		</div><!-- /modal-content -->
+	</div><!-- /modal-dialog -->
+</div><!-- /modal-driver-note -->
+
+<!-- modal-driver-comment
+================================================== -->
+<div class="modal fade" id="modal-driver-comment" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="myModalLabel">司機評價 - 2014080132234</h4>
+			</div><!-- /modal-header -->
+			<div class="modal-body">
+				<form role="form">
+					<div class="form-group">
+						<label>填寫評價</label>
+						<textarea class="form-control" rows="3"></textarea>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label>曬圖分享 <small>您可以上傳 5 張照片</small></label>
+						<input type="file">
+					</div><!-- /form-group -->
+				</form>
+			</div><!-- /modal-body -->
+			<div class="modal-footer">
+				<div class="col-sm-8 col-sm-offset-2">
+					<button type="button" class="btn btn-primary btn-block" data-dismiss="modal">發佈評價</button>
+				</div><!-- /col-sm-10 -->
+			</div><!-- /modal-footer -->
+		</div><!-- /modal-content -->
+	</div><!-- /modal-dialog -->
+</div><!-- /modal-driver-comment -->
+
+<!-- modal-passenger-comment
+================================================== -->
+<div class="modal fade" id="modal-passenger-comment" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="myModalLabel">乘客評價 - 2014080132234</h4>
+			</div><!-- /modal-header -->
+			<div class="modal-body">
+				<h5>評價給 張 大明 (289-F7)</h5>
+				<p>
+					乘客評價：
+					<span class="text-yellow">
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+					</span>
+				</p>
+				<form role="form">
+					<div class="form-group">
+						<label>填寫評價</label>
+						<textarea class="form-control" rows="3"></textarea>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label>曬圖分享 <small>您可以上傳 5 張照片</small></label>
+						<input type="file">
+					</div><!-- /form-group -->
+				</form>
+				<hr class="m-top-2 m-bottom-2">
+				<h5>評價給 李 三哥 (289-F7)</h5>
+				<p>
+					乘客評價：
+					<span class="text-yellow">
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+					</span>
+				</p>
+				<form role="form">
+					<div class="form-group">
+						<label>填寫評價</label>
+						<textarea class="form-control" rows="3"></textarea>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label>曬圖分享 <small>您可以上傳 5 張照片</small></label>
+						<input type="file">
+					</div><!-- /form-group -->
+				</form>
+			</div><!-- /modal-body -->
+			<div class="modal-footer">
+				<div class="col-sm-8 col-sm-offset-2">
+					<button type="button" class="btn btn-primary btn-block" data-dismiss="modal">發佈評價</button>
+				</div><!-- /col-sm-10 -->
+			</div><!-- /modal-footer -->
+		</div><!-- /modal-content -->
+	</div><!-- /modal-dialog -->
+</div><!-- /modal-passenger-comment -->
+	<!-- Javascripts -->
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="javascripts/bootstrap.js"></script>
+</body>
+</html>
