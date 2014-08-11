@@ -63,7 +63,8 @@
 							<label>有汽車照片</label>
 							<select class="form-control">
 								<option>不指定</option>
-								<option>2</option>
+								<option>有</option>
+								<option>無</option>
 							</select>
 						</div><!-- /form-group -->
 						<hr>
@@ -71,7 +72,8 @@
 							<label>有旅遊照片</label>
 							<select class="form-control">
 								<option>不指定</option>
-								<option>2</option>
+								<option>有</option>
+								<option>無</option>
 							</select>
 						</div><!-- /form-group -->
 						<hr>
@@ -79,7 +81,8 @@
 							<label>司機性別</label>
 							<select class="form-control">
 								<option>不指定</option>
-								<option>2</option>
+								<option>男</option>
+								<option>女</option>
 							</select>
 						</div><!-- /form-group -->
 						<hr>
@@ -109,6 +112,15 @@
 						</div><!-- /form-group -->
 						<hr>
 						<div class="form-group">
+							<label>導遊証照</label>
+							<select class="form-control">
+								<option>不指定</option>
+								<option>有</option>
+								<option>無</option>
+							</select>
+						</div><!-- /form-group -->
+						<hr>
+						<div class="form-group">
 							<label>語言能力</label>
 							<select class="form-control">
 								<option>不指定</option>
@@ -120,15 +132,17 @@
 							<label>無菸車</label>
 							<select class="form-control">
 								<option>不指定</option>
-								<option>2</option>
+								<option>無抽煙習慣</option>
+								<option>有抽煙習慣</option>
 							</select>
 						</div><!-- /form-group -->
 						<hr>
 						<div class="form-group">
 							<label>WiFi 上網</label>
 							<select class="form-control">
-								<option>免費 WiFi</option>
-								<option>2</option>
+								<option>不指定</option>
+								<option>免費提供分享</option>
+								<option>無法提供</option>
 							</select>
 						</div><!-- /form-group -->
 					</form>
@@ -152,6 +166,15 @@
 						</div><!-- /btn-group -->
 						<div class="btn-group">
 							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+								服務次數 <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">由多到少</a></li>
+								<li><a href="#">由少到多</a></li>
+							</ul>
+						</div><!-- /btn-group -->
+						<div class="btn-group">
+							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 								加入時間 <span class="caret"></span>
 							</button>
 							<ul class="dropdown-menu" role="menu">
@@ -167,11 +190,11 @@
 					<h4 class="m-top-0 text-yellow">依照篩選條件司機數 (3422)</h4>
 					<hr>
 					<div class="row">
-						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2">
+						<div class="col-xs-5 col-sm-4 col-md-2 col-lg-1">
 							<a href="driver-page.html"><img src="images/driver-img-1.jpg" class="img-circle img-responsive img-thumbnail"></a>
 						</div><!-- /col-lg-2 -->
-						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
-							<h2 class="m-top-0">
+						<div class="col-xs-7 col-sm-8 col-md-7 col-lg-9">
+							<h3 class="m-top-0 m-bottom-0">
 								<a href="driver-page.html">王大明</a>
 								<small class="text-yellow">
 									<span class="glyphicon glyphicon-star"></span>
@@ -180,25 +203,25 @@
 									<span class="glyphicon glyphicon-star"></span>
 									<span class="glyphicon glyphicon-star"></span>
 								</small>
-							</h2>
+							</h3>
 							<ul class="list-unstyled">
 								<li>人氣指數 132</li>
 								<li>服務次數 33</li>
 								<li>加入時間 2014-05-30</li>
 							</ul>
 						</div><!-- /col-lg-8 -->
-						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2">
+						<div class="col-xs-7 col-sm-8 col-md-3 col-lg-2">
 							<p>車牌號碼 289 - F7</p>
-							<button type="button" class="btn btn-primary btn-block">我要 TA</button>
+							<button type="button" class="btn btn-primary btn-block">我要預約</button>
 						</div><!-- /col-lg-2 -->
 					</div><!-- /row -->
 					<hr>
 					<div class="row">
-						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2">
+						<div class="col-xs-5 col-sm-4 col-md-2 col-lg-1">
 							<a href="driver-page.html"><img src="images/driver-img-1.jpg" class="img-circle img-responsive img-thumbnail"></a>
 						</div><!-- /col-lg-2 -->
-						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
-							<h2 class="m-top-0">
+						<div class="col-xs-7 col-sm-8 col-md-7 col-lg-9">
+							<h3 class="m-top-0 m-bottom-0">
 								<a href="driver-page.html">王大明</a>
 								<small class="text-yellow">
 									<span class="glyphicon glyphicon-star"></span>
@@ -207,25 +230,25 @@
 									<span class="glyphicon glyphicon-star"></span>
 									<span class="glyphicon glyphicon-star"></span>
 								</small>
-							</h2>
+							</h3>
 							<ul class="list-unstyled">
 								<li>人氣指數 132</li>
 								<li>服務次數 33</li>
 								<li>加入時間 2014-05-30</li>
 							</ul>
 						</div><!-- /col-lg-8 -->
-						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2">
+						<div class="col-xs-7 col-sm-8 col-md-3 col-lg-2">
 							<p>車牌號碼 289 - F7</p>
-							<button type="button" class="btn btn-primary btn-block">我要 TA</button>
+							<button type="button" class="btn btn-primary btn-block">我要預約</button>
 						</div><!-- /col-lg-2 -->
 					</div><!-- /row -->
 					<hr>
 					<div class="row">
-						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2">
+						<div class="col-xs-5 col-sm-4 col-md-2 col-lg-1">
 							<a href="driver-page.html"><img src="images/driver-img-1.jpg" class="img-circle img-responsive img-thumbnail"></a>
 						</div><!-- /col-lg-2 -->
-						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
-							<h2 class="m-top-0">
+						<div class="col-xs-7 col-sm-8 col-md-7 col-lg-9">
+							<h3 class="m-top-0 m-bottom-0">
 								<a href="driver-page.html">王大明</a>
 								<small class="text-yellow">
 									<span class="glyphicon glyphicon-star"></span>
@@ -234,25 +257,25 @@
 									<span class="glyphicon glyphicon-star"></span>
 									<span class="glyphicon glyphicon-star"></span>
 								</small>
-							</h2>
+							</h3>
 							<ul class="list-unstyled">
 								<li>人氣指數 132</li>
 								<li>服務次數 33</li>
 								<li>加入時間 2014-05-30</li>
 							</ul>
 						</div><!-- /col-lg-8 -->
-						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2">
+						<div class="col-xs-7 col-sm-8 col-md-3 col-lg-2">
 							<p>車牌號碼 289 - F7</p>
-							<button type="button" class="btn btn-primary btn-block">我要 TA</button>
+							<button type="button" class="btn btn-primary btn-block">我要預約</button>
 						</div><!-- /col-lg-2 -->
 					</div><!-- /row -->
 					<hr>
 					<div class="row">
-						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2">
+						<div class="col-xs-5 col-sm-4 col-md-2 col-lg-1">
 							<a href="driver-page.html"><img src="images/driver-img-1.jpg" class="img-circle img-responsive img-thumbnail"></a>
 						</div><!-- /col-lg-2 -->
-						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
-							<h2 class="m-top-0">
+						<div class="col-xs-7 col-sm-8 col-md-7 col-lg-9">
+							<h3 class="m-top-0 m-bottom-0">
 								<a href="driver-page.html">王大明</a>
 								<small class="text-yellow">
 									<span class="glyphicon glyphicon-star"></span>
@@ -261,25 +284,25 @@
 									<span class="glyphicon glyphicon-star"></span>
 									<span class="glyphicon glyphicon-star"></span>
 								</small>
-							</h2>
+							</h3>
 							<ul class="list-unstyled">
 								<li>人氣指數 132</li>
 								<li>服務次數 33</li>
 								<li>加入時間 2014-05-30</li>
 							</ul>
 						</div><!-- /col-lg-8 -->
-						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2">
+						<div class="col-xs-7 col-sm-8 col-md-3 col-lg-2">
 							<p>車牌號碼 289 - F7</p>
-							<button type="button" class="btn btn-primary btn-block">我要 TA</button>
+							<button type="button" class="btn btn-primary btn-block">我要預約</button>
 						</div><!-- /col-lg-2 -->
 					</div><!-- /row -->
 					<hr>
 					<div class="row">
-						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2">
+						<div class="col-xs-5 col-sm-4 col-md-2 col-lg-1">
 							<a href="driver-page.html"><img src="images/driver-img-1.jpg" class="img-circle img-responsive img-thumbnail"></a>
 						</div><!-- /col-lg-2 -->
-						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
-							<h2 class="m-top-0">
+						<div class="col-xs-7 col-sm-8 col-md-7 col-lg-9">
+							<h3 class="m-top-0 m-bottom-0">
 								<a href="driver-page.html">王大明</a>
 								<small class="text-yellow">
 									<span class="glyphicon glyphicon-star"></span>
@@ -288,16 +311,16 @@
 									<span class="glyphicon glyphicon-star"></span>
 									<span class="glyphicon glyphicon-star"></span>
 								</small>
-							</h2>
+							</h3>
 							<ul class="list-unstyled">
 								<li>人氣指數 132</li>
 								<li>服務次數 33</li>
 								<li>加入時間 2014-05-30</li>
 							</ul>
 						</div><!-- /col-lg-8 -->
-						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2">
+						<div class="col-xs-7 col-sm-8 col-md-3 col-lg-2">
 							<p>車牌號碼 289 - F7</p>
-							<button type="button" class="btn btn-primary btn-block">我要 TA</button>
+							<button type="button" class="btn btn-primary btn-block">我要預約</button>
 						</div><!-- /col-lg-2 -->
 					</div><!-- /row -->
 					<hr>
@@ -482,6 +505,86 @@
 	</div><!-- /modal-dialog -->
 </div><!-- /modal-driver-note -->
 
+<!-- modal-driver-read
+================================================== -->
+<div class="modal fade" id="modal-driver-read" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="myModalLabel">給司機的備忘錄：張大明</h4>
+			</div><!-- /modal-header -->
+			<div class="modal-body">
+				<h4 class="text-yellow">接機行程備忘錄</h4>
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+						<label class="col-sm-4 control-label">航班號碼</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">1234</p>
+						</div>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label class="col-sm-4 control-label">班機起飛時間</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">1234</p>
+						</div>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label class="col-sm-4 control-label">到達時間</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">1234</p>
+						</div>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label class="col-sm-4 control-label">航廈</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">1234</p>
+						</div>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label class="col-sm-4 control-label">搭車人數</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">1234</p>
+						</div>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label class="col-sm-4 control-label">備註</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">1234</p>
+						</div>
+					</div><!-- /form-group -->
+				</form>
+				<h4 class="text-yellow">旅遊接送備忘錄</h4>
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+						<label class="col-sm-4 control-label">接送地點</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">1234</p>
+						</div>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label class="col-sm-4 control-label">接送時間</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">1234</p>
+						</div>
+					</div><!-- /form-group -->
+					<div class="form-group">
+						<label class="col-sm-4 control-label">備註</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">1234</p>
+						</div>
+					</div><!-- /form-group -->
+				</form>
+			</div><!-- /modal-body -->
+			<div class="modal-footer">
+				<div class="col-sm-8 col-sm-offset-2">
+					<button type="button" class="btn btn-primary btn-block" data-dismiss="modal">完成</button>
+				</div><!-- /col-sm-10 -->
+			</div><!-- /modal-footer -->
+		</div><!-- /modal-content -->
+	</div><!-- /modal-dialog -->
+</div><!-- /modal-driver-read -->
+
 <!-- modal-driver-comment
 ================================================== -->
 <div class="modal fade" id="modal-driver-comment" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -489,9 +592,10 @@
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-				<h4 class="modal-title" id="myModalLabel">司機評價 - 2014080132234</h4>
+				<h4 class="modal-title" id="myModalLabel">給 takuya@yahoo.jp 評價</h4>
 			</div><!-- /modal-header -->
 			<div class="modal-body">
+				<h4>訂單編號：2014080132234</h4>
 				<form role="form">
 					<div class="form-group">
 						<label>填寫評價</label>

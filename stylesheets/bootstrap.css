@@ -8264,26 +8264,51 @@ button.close {
   background-image: url("../images/flags.png");
   background-repeat: no-repeat;
   margin-right: 5px;
+  margin-top: 2px;
 }
 
-/* line 42, ../sass/_footer.scss */
+/* line 43, ../sass/_footer.scss */
 .flags-tw {
   background-position: 0 0;
 }
 
-/* line 43, ../sass/_footer.scss */
+/* line 44, ../sass/_footer.scss */
 .flags-cn {
   background-position: 0 -13px;
 }
 
-/* line 44, ../sass/_footer.scss */
+/* line 45, ../sass/_footer.scss */
 .flags-en {
   background-position: 0 -26px;
 }
 
-/* line 45, ../sass/_footer.scss */
+/* line 46, ../sass/_footer.scss */
 .flags-jp {
   background-position: 0 -39px;
+}
+
+/* line 47, ../sass/_footer.scss */
+.flags-email {
+  background-position: -20px 0px;
+  width: 26px;
+  height: 26px;
+  margin-top: -2px;
+}
+
+/* line 48, ../sass/_footer.scss */
+.flags-line {
+  background-position: -20px -26px;
+  width: 26px;
+  height: 26px;
+  margin-top: -2px;
+}
+
+/* line 49, ../sass/_footer.scss */
+.flags-wechat {
+  background-position: -20px -52px;
+  width: 26px;
+  height: 26px;
+  margin-top: -2px;
 }
 
 /* line 2, ../sass/_margins.scss */
