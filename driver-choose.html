@@ -43,9 +43,9 @@
 </nav><!-- cart-block
 ================================================== -->
 <a href="reservation-confirm.html" class="cart-block">
-	<p>已選擇司機</p>
 	<h2>2<small>位</small></h2>
-	<p>前往預約<span class="glyphicon glyphicon-chevron-right"></span></p>
+	<p>司機已選擇</p>
+	<p>前往結算<span class="glyphicon glyphicon-chevron-right"></span></p>
 </a><!-- /cart-block --><div class="container">
 	<ol class="breadcrumb m-top-3">
 		<li><a href="index.html">首頁</a></li>
@@ -60,7 +60,7 @@
 				<div class="panel-body">
 					<form role="form">
 						<div class="form-group">
-							<label>有汽車照片</label>
+							<label>服務項目</label>
 							<select class="form-control">
 								<option>不指定</option>
 								<option>有</option>
@@ -69,7 +69,7 @@
 						</div><!-- /form-group -->
 						<hr>
 						<div class="form-group">
-							<label>有旅遊照片</label>
+							<label>導覽服務</label>
 							<select class="form-control">
 								<option>不指定</option>
 								<option>有</option>
@@ -103,24 +103,6 @@
 						</div><!-- /form-group -->
 						<hr>
 						<div class="form-group">
-							<label>導覽服務</label>
-							<select class="form-control">
-								<option>不指定</option>
-								<option>有提供</option>
-								<option>無提供</option>
-							</select>
-						</div><!-- /form-group -->
-						<hr>
-						<div class="form-group">
-							<label>導遊証照</label>
-							<select class="form-control">
-								<option>不指定</option>
-								<option>有</option>
-								<option>無</option>
-							</select>
-						</div><!-- /form-group -->
-						<hr>
-						<div class="form-group">
 							<label>語言能力</label>
 							<select class="form-control">
 								<option>不指定</option>
@@ -129,7 +111,7 @@
 						</div><!-- /form-group -->
 						<hr>
 						<div class="form-group">
-							<label>無菸車</label>
+							<label>抽煙習慣</label>
 							<select class="form-control">
 								<option>不指定</option>
 								<option>無抽煙習慣</option>
@@ -152,39 +134,41 @@
 		</div><!-- /col-sm-4 -->
 		<div class="col-sm-8 col-md-9 m-bottom-2">
 			<div class="well p-bottom-1">
-				<form class="form-inline" role="form">
-					<div class="form-group">
-						<label class="m-right-1">排序方式</label>
-						<div class="btn-group">
-							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-								人氣指數 <span class="caret"></span>
-							</button>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#">由多到少</a></li>
-								<li><a href="#">由少到多</a></li>
-							</ul>
-						</div><!-- /btn-group -->
-						<div class="btn-group">
-							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-								服務次數 <span class="caret"></span>
-							</button>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#">由多到少</a></li>
-								<li><a href="#">由少到多</a></li>
-							</ul>
-						</div><!-- /btn-group -->
-						<div class="btn-group">
-							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-								加入時間 <span class="caret"></span>
-							</button>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#">由新到舊</a></li>
-								<li><a href="#">由舊到新</a></li>
-							</ul>
-						</div><!-- /btn-group -->
+				<form class="form-horizontal" role="form">
+					<div class="form-group m-bottom-0">
+						<label class="col-sm-2 control-label text-left">排序方式</label>
+						<div class="col-sm-10 text-right">
+							<div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+									人氣指數 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">由多到少</a></li>
+									<li><a href="#">由少到多</a></li>
+								</ul>
+							</div><!-- /btn-group -->
+							<div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+									服務次數 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">由多到少</a></li>
+									<li><a href="#">由少到多</a></li>
+								</ul>
+							</div><!-- /btn-group -->
+							<div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+									加入時間 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">由新到舊</a></li>
+									<li><a href="#">由舊到新</a></li>
+								</ul>
+							</div><!-- /btn-group -->
+						</div><!-- /col-sm-10 -->
 					</div><!-- /form-group -->
 				</form>
-			</div><!-- /bg-gray -->
+			</div><!-- /well -->
 			<div class="content-block m-bottom-2">
 				<div class="p-30">
 					<h4 class="m-top-0 text-yellow">依照篩選條件司機數 (3422)</h4>
@@ -193,9 +177,9 @@
 						<div class="col-xs-5 col-sm-4 col-md-2 col-lg-1">
 							<a href="driver-page.html"><img src="images/driver-img-1.jpg" class="img-circle img-responsive img-thumbnail"></a>
 						</div><!-- /col-lg-2 -->
-						<div class="col-xs-7 col-sm-8 col-md-7 col-lg-9">
+						<div class="col-xs-7 col-sm-8 col-md-4 col-lg-4">
 							<h3 class="m-top-0 m-bottom-0">
-								<a href="driver-page.html">王大明</a>
+								王大明
 								<small class="text-yellow">
 									<span class="glyphicon glyphicon-star"></span>
 									<span class="glyphicon glyphicon-star"></span>
@@ -204,15 +188,19 @@
 									<span class="glyphicon glyphicon-star"></span>
 								</small>
 							</h3>
+							<h6 class="m-bottom-0 m-top-0"><small>車牌號碼</small> 289 - F7</h6>
+							<h6 class="m-bottom-0 m-top-0"><small>電話</small> 0972-123-345</h6>
+						</div><!-- /col-lg-8 -->
+						<div class="col-xs-7 col-sm-8 col-md-3 col-lg-3">
 							<ul class="list-unstyled">
 								<li>人氣指數 132</li>
 								<li>服務次數 33</li>
 								<li>加入時間 2014-05-30</li>
 							</ul>
-						</div><!-- /col-lg-8 -->
-						<div class="col-xs-7 col-sm-8 col-md-3 col-lg-2">
-							<p>車牌號碼 289 - F7</p>
-							<button type="button" class="btn btn-primary btn-block">我要預約</button>
+						</div><!-- /col-lg-2 -->
+						<div class="col-xs-12 col-sm-8 col-md-3 col-lg-4 text-right">
+							<a href="driver-page.html" class="btn btn-default">詳細資料</a>
+							<button type="button" class="btn btn-primary">預約</button>
 						</div><!-- /col-lg-2 -->
 					</div><!-- /row -->
 					<hr>
@@ -220,9 +208,9 @@
 						<div class="col-xs-5 col-sm-4 col-md-2 col-lg-1">
 							<a href="driver-page.html"><img src="images/driver-img-1.jpg" class="img-circle img-responsive img-thumbnail"></a>
 						</div><!-- /col-lg-2 -->
-						<div class="col-xs-7 col-sm-8 col-md-7 col-lg-9">
+						<div class="col-xs-7 col-sm-8 col-md-4 col-lg-4">
 							<h3 class="m-top-0 m-bottom-0">
-								<a href="driver-page.html">王大明</a>
+								王大明
 								<small class="text-yellow">
 									<span class="glyphicon glyphicon-star"></span>
 									<span class="glyphicon glyphicon-star"></span>
@@ -231,15 +219,19 @@
 									<span class="glyphicon glyphicon-star"></span>
 								</small>
 							</h3>
+							<h6 class="m-bottom-0 m-top-0"><small>車牌號碼</small> 289 - F7</h6>
+							<h6 class="m-bottom-0 m-top-0"><small>電話</small> 0972-123-345</h6>
+						</div><!-- /col-lg-8 -->
+						<div class="col-xs-7 col-sm-8 col-md-3 col-lg-3">
 							<ul class="list-unstyled">
 								<li>人氣指數 132</li>
 								<li>服務次數 33</li>
 								<li>加入時間 2014-05-30</li>
 							</ul>
-						</div><!-- /col-lg-8 -->
-						<div class="col-xs-7 col-sm-8 col-md-3 col-lg-2">
-							<p>車牌號碼 289 - F7</p>
-							<button type="button" class="btn btn-primary btn-block">我要預約</button>
+						</div><!-- /col-lg-2 -->
+						<div class="col-xs-12 col-sm-8 col-md-3 col-lg-4 text-right">
+							<a href="driver-page.html" class="btn btn-default">詳細資料</a>
+							<button type="button" class="btn btn-primary">預約</button>
 						</div><!-- /col-lg-2 -->
 					</div><!-- /row -->
 					<hr>
@@ -247,9 +239,9 @@
 						<div class="col-xs-5 col-sm-4 col-md-2 col-lg-1">
 							<a href="driver-page.html"><img src="images/driver-img-1.jpg" class="img-circle img-responsive img-thumbnail"></a>
 						</div><!-- /col-lg-2 -->
-						<div class="col-xs-7 col-sm-8 col-md-7 col-lg-9">
+						<div class="col-xs-7 col-sm-8 col-md-4 col-lg-4">
 							<h3 class="m-top-0 m-bottom-0">
-								<a href="driver-page.html">王大明</a>
+								王大明
 								<small class="text-yellow">
 									<span class="glyphicon glyphicon-star"></span>
 									<span class="glyphicon glyphicon-star"></span>
@@ -258,15 +250,19 @@
 									<span class="glyphicon glyphicon-star"></span>
 								</small>
 							</h3>
+							<h6 class="m-bottom-0 m-top-0"><small>車牌號碼</small> 289 - F7</h6>
+							<h6 class="m-bottom-0 m-top-0"><small>電話</small> 0972-123-345</h6>
+						</div><!-- /col-lg-8 -->
+						<div class="col-xs-7 col-sm-8 col-md-3 col-lg-3">
 							<ul class="list-unstyled">
 								<li>人氣指數 132</li>
 								<li>服務次數 33</li>
 								<li>加入時間 2014-05-30</li>
 							</ul>
-						</div><!-- /col-lg-8 -->
-						<div class="col-xs-7 col-sm-8 col-md-3 col-lg-2">
-							<p>車牌號碼 289 - F7</p>
-							<button type="button" class="btn btn-primary btn-block">我要預約</button>
+						</div><!-- /col-lg-2 -->
+						<div class="col-xs-12 col-sm-8 col-md-3 col-lg-4 text-right">
+							<a href="driver-page.html" class="btn btn-default">詳細資料</a>
+							<button type="button" class="btn btn-primary">預約</button>
 						</div><!-- /col-lg-2 -->
 					</div><!-- /row -->
 					<hr>
@@ -274,9 +270,9 @@
 						<div class="col-xs-5 col-sm-4 col-md-2 col-lg-1">
 							<a href="driver-page.html"><img src="images/driver-img-1.jpg" class="img-circle img-responsive img-thumbnail"></a>
 						</div><!-- /col-lg-2 -->
-						<div class="col-xs-7 col-sm-8 col-md-7 col-lg-9">
+						<div class="col-xs-7 col-sm-8 col-md-4 col-lg-4">
 							<h3 class="m-top-0 m-bottom-0">
-								<a href="driver-page.html">王大明</a>
+								王大明
 								<small class="text-yellow">
 									<span class="glyphicon glyphicon-star"></span>
 									<span class="glyphicon glyphicon-star"></span>
@@ -285,15 +281,19 @@
 									<span class="glyphicon glyphicon-star"></span>
 								</small>
 							</h3>
+							<h6 class="m-bottom-0 m-top-0"><small>車牌號碼</small> 289 - F7</h6>
+							<h6 class="m-bottom-0 m-top-0"><small>電話</small> 0972-123-345</h6>
+						</div><!-- /col-lg-8 -->
+						<div class="col-xs-7 col-sm-8 col-md-3 col-lg-3">
 							<ul class="list-unstyled">
 								<li>人氣指數 132</li>
 								<li>服務次數 33</li>
 								<li>加入時間 2014-05-30</li>
 							</ul>
-						</div><!-- /col-lg-8 -->
-						<div class="col-xs-7 col-sm-8 col-md-3 col-lg-2">
-							<p>車牌號碼 289 - F7</p>
-							<button type="button" class="btn btn-primary btn-block">我要預約</button>
+						</div><!-- /col-lg-2 -->
+						<div class="col-xs-12 col-sm-8 col-md-3 col-lg-4 text-right">
+							<a href="driver-page.html" class="btn btn-default">詳細資料</a>
+							<button type="button" class="btn btn-primary">預約</button>
 						</div><!-- /col-lg-2 -->
 					</div><!-- /row -->
 					<hr>
@@ -301,9 +301,9 @@
 						<div class="col-xs-5 col-sm-4 col-md-2 col-lg-1">
 							<a href="driver-page.html"><img src="images/driver-img-1.jpg" class="img-circle img-responsive img-thumbnail"></a>
 						</div><!-- /col-lg-2 -->
-						<div class="col-xs-7 col-sm-8 col-md-7 col-lg-9">
+						<div class="col-xs-7 col-sm-8 col-md-4 col-lg-4">
 							<h3 class="m-top-0 m-bottom-0">
-								<a href="driver-page.html">王大明</a>
+								王大明
 								<small class="text-yellow">
 									<span class="glyphicon glyphicon-star"></span>
 									<span class="glyphicon glyphicon-star"></span>
@@ -312,15 +312,19 @@
 									<span class="glyphicon glyphicon-star"></span>
 								</small>
 							</h3>
+							<h6 class="m-bottom-0 m-top-0"><small>車牌號碼</small> 289 - F7</h6>
+							<h6 class="m-bottom-0 m-top-0"><small>電話</small> 0972-123-345</h6>
+						</div><!-- /col-lg-8 -->
+						<div class="col-xs-7 col-sm-8 col-md-3 col-lg-3">
 							<ul class="list-unstyled">
 								<li>人氣指數 132</li>
 								<li>服務次數 33</li>
 								<li>加入時間 2014-05-30</li>
 							</ul>
-						</div><!-- /col-lg-8 -->
-						<div class="col-xs-7 col-sm-8 col-md-3 col-lg-2">
-							<p>車牌號碼 289 - F7</p>
-							<button type="button" class="btn btn-primary btn-block">我要預約</button>
+						</div><!-- /col-lg-2 -->
+						<div class="col-xs-12 col-sm-8 col-md-3 col-lg-4 text-right">
+							<a href="driver-page.html" class="btn btn-default">詳細資料</a>
+							<button type="button" class="btn btn-primary">預約</button>
 						</div><!-- /col-lg-2 -->
 					</div><!-- /row -->
 					<hr>

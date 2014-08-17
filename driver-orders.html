@@ -45,7 +45,7 @@
 	</ol><!-- /breadcrumb -->
 	<div class="row m-bottom-3">
 		<div class="col-sm-3">
-			<!-- about-menu
+			<!-- driver-menu
 ================================================== -->
 <div class="list-group">
 	<a class="list-group-item" href="driver-admin.html">修改資料</a>
@@ -55,23 +55,12 @@
 		<div class="col-sm-9">
 			<div class="well p-bottom-1">
 				<form class="form-inline" role="form">
-					<div class="form-group m-right-1">
+					<div class="form-group m-right-1 m-bottom-0">
 						<label>搜尋訂單</label>
 						<input type="text" class="form-control" placeholder="搜尋">
 					</div><!-- /form-group -->
-					<div class="form-group m-right-1">
-						<label>篩選條件</label>
-						<div class="btn-group">
-							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-								所有訂單 <span class="caret"></span>
-							</button>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#">Action</a></li>
-								<li><a href="#">Another action</a></li>
-								<li><a href="#">Something else here</a></li>
-								<li><a href="#">Separated link</a></li>
-							</ul>
-						</div><!-- /btn-group -->
+					<div class="form-group m-right-1 m-bottom-0">
+						<label>只顯示</label>
 						<div class="btn-group">
 							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 								已/未評價 <span class="caret"></span>
@@ -84,11 +73,22 @@
 							</ul>
 						</div><!-- /btn-group -->
 					</div><!-- /form-group -->
-					<div class="form-group">
-						<label>排序方式</label>
+					<div class="form-group m-bottom-0">
+						<label>業績</label>
 						<div class="btn-group">
 							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-								訂單時間 <span class="caret"></span>
+								2014 年 <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Separated link</a></li>
+							</ul>
+						</div><!-- /btn-group -->
+						<div class="btn-group">
+							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+								- 月 <span class="caret"></span>
 							</button>
 							<ul class="dropdown-menu" role="menu">
 								<li><a href="#">Action</a></li>
@@ -101,7 +101,17 @@
 				</form>
 			</div><!-- /well -->
 			<div class="content-block p-30">
-				<h5 class="text-yellow m-top-0">依照篩選條件訂單數 (34)   / 共有 1,223 筆訂單</h5>
+				<h5 class="text-yellow m-top-0 m-bottom-2">依照篩選條件訂單數 (34)   / 共有 1,223 筆訂單</h5>
+				<div class="content-block yellow-block p-20 m-bottom-2">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+							司機 張 大明 於 <span class="text-yellow">2014</span> 年 <span class="text-yellow">所有</span> 月份，共有 <span class="text-yellow">12</span> 筆訂單：
+						</div><!-- /col-lg-4 -->
+						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-right">
+							<h3 class="text-danger m-top-0 m-bottom-0"><small class="text-danger">NTD$</small> 27,500</h3>
+						</div><!-- /col-lg-6 -->
+					</div><!-- /row -->
+				</div><!-- /content-block -->
 				<table class="table">
 					<tbody>
 						<tr>
@@ -113,6 +123,9 @@
 							</td>
 							<td>
 								<h4><small>訂單金額：</small><br>NTD$ 9,800</h4>
+							</td>
+							<td>
+								<h4><small>司機金額：</small><br>NTD$ 4,800</h4>
 							</td>
 							<td>
 								<span class="label label-success">付款完成</span>
@@ -132,6 +145,9 @@
 								<h4><small>訂單金額：</small><br>NTD$ 9,800</h4>
 							</td>
 							<td>
+								<h4><small>司機金額：</small><br>NTD$ 4,800</h4>
+							</td>
+							<td>
 								<span class="label label-warning">付款失敗</span>
 							</td>
 							<td>
@@ -147,6 +163,9 @@
 							</td>
 							<td>
 								<h4><small>訂單金額：</small><br>NTD$ 9,800</h4>
+							</td>
+							<td>
+								<h4><small>司機金額：</small><br>NTD$ 4,800</h4>
 							</td>
 							<td>
 								<span class="label label-danger">訂單取消</span>
