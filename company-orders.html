@@ -30,20 +30,16 @@
 			<a class="navbar-brand" href="index.html">GoEasyTaxi</a>
 		</div><!-- /navbar-header -->
 		<!-- Collect the nav links, forms, and other content for toggling -->
-		<h2 class="navbar-left m-left-1">合作廠商管理介面</h2>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<h2 class="navbar-h2">合作廠商管理介面</h2>
 			<div class="nav navbar-nav navbar-right">
 				<p class="navbar-text m-right-1">登入身份：<a href-="driver-admin.html">A123456789</a></p>
-				<button type="button" class="btn btn-default navbar-btn" >登出</button>
+				<button type="button" onclick="self.location.href='index.html'" class="btn btn-default navbar-btn">登出</button>
 			</div>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container -->
 </nav><div class="container">
-	<ol class="breadcrumb m-top-3">
-		<li><a href="company-admin.html">合作廠商管理介面</a></li>
-		<li class="active">派車記錄</li>
-	</ol><!-- /breadcrumb -->
-	<div class="row m-bottom-3">
+	<div class="row m-bottom-3 m-top-3">
 		<div class="col-sm-3">
 			<!-- company-menu
 ================================================== -->
@@ -56,36 +52,22 @@
 			<div class="content-block p-30">
 				<div class="row m-bottom-2">
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-						<h3 class="m-top-0">山水大飯店</h3>
+						<h3 class="m-top-0 m-bottom-0">山水大飯店</h3>
 						<h6 class="m-bottom-0 m-top-0"><small>廠商地址：</small>台北市大安區人愛路四段28號</h6>
 						<h6 class="m-bottom-0 m-top-0"><small>廠商電話：</small>02-2234-2233 ext354</h6>
 					</div><!-- /col-lg-4 -->
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
 						<form class="form-inline" role="form">
-							<div class="form-group m-bottom-0">
+							<div class="form-group">
 								<label>業績</label>
-								<div class="btn-group">
-									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-										2014 年 <span class="caret"></span>
-									</button>
-									<ul class="dropdown-menu" role="menu">
-										<li><a href="#">Action</a></li>
-										<li><a href="#">Another action</a></li>
-										<li><a href="#">Something else here</a></li>
-										<li><a href="#">Separated link</a></li>
-									</ul>
-								</div><!-- /btn-group -->
-								<div class="btn-group">
-									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-										- 月 <span class="caret"></span>
-									</button>
-									<ul class="dropdown-menu" role="menu">
-										<li><a href="#">Action</a></li>
-										<li><a href="#">Another action</a></li>
-										<li><a href="#">Something else here</a></li>
-										<li><a href="#">Separated link</a></li>
-									</ul>
-								</div><!-- /btn-group -->
+								<select class="form-control">
+									<option>2014 年</option>
+									<option>2</option>
+								</select>
+								<select class="form-control">
+									<option> - 月</option>
+									<option>2</option>
+								</select>
 							</div><!-- /form-group -->
 						</form>
 					</div><!-- /col-lg-6 -->
@@ -93,43 +75,43 @@
 				<div class="content-block yellow-block p-20 m-bottom-2">
 					合作廠商 <span class="text-yellow">山水大飯店</span> 於 <span class="text-yellow">2014</span> 年 <span class="text-yellow">所有</span> 月份，共有 <span class="text-yellow">12</span> 筆派車記錄：				
 				</div><!-- /content-block -->
-				<table class="table">
-					<tbody>
-						<tr>
-							<td>
-								<h4><small>預約叫車日期 / 時間：</small><br><span class="text-yellow">2014-05-22 11:30am</span></h4>
-							</td>
-							<td>
-								<h4><small>訂單編號：</small><br>2014080132234</h4>
-							</td>
-							<td>
-								<span class="label label-success">訂單完成</span>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<h4><small>預約叫車日期 / 時間：</small><br><span class="text-yellow">2014-05-22 11:30am</span></h4>
-							</td>
-							<td>
-								<h4><small>訂單編號：</small><br>尚未產生</h4>
-							</td>
-							<td>
-								<span class="label label-default">等候處理</span>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<h4><small>預約叫車日期 / 時間：</small><br><span class="text-yellow">2014-05-22 11:30am</span></h4>
-							</td>
-							<td>
-								<h4><small>訂單編號：</small><br>尚未產生</h4>
-							</td>
-							<td>
-								<span class="label label-danger">訂單取消</span>
-							</td>
-						</tr>
-					</tbody>
-				</table>
+				<hr>
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-6">
+						<h4 class="m-top-0"><small>預約叫車日期 / 時間：</small><br><span class="text-yellow">2014-05-22 11:30am</span></h4>
+					</div><!-- /col-sm-3 -->
+					<div class="col-xs-12 col-sm-4 col-md-3">
+						<h4 class="m-top-0"><small>訂單編號：</small><br>2014080132234</h4>
+					</div><!-- /col-sm-3 -->
+					<div class="col-xs-12 col-sm-4 col-md-3">
+						<span class="label label-success">訂單完成</span>
+					</div><!-- /col-sm-2 -->
+				</div><!-- /row -->
+				<hr>
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-6">
+						<h4 class="m-top-0"><small>預約叫車日期 / 時間：</small><br><span class="text-yellow">2014-05-22 11:30am</span></h4>
+					</div><!-- /col-sm-3 -->
+					<div class="col-xs-12 col-sm-4 col-md-3">
+						<h4 class="m-top-0"><small>訂單編號：</small><br>尚未產生</h4>
+					</div><!-- /col-sm-3 -->
+					<div class="col-xs-12 col-sm-4 col-md-3">
+						<span class="label label-default">等候處理</span>
+					</div><!-- /col-sm-2 -->
+				</div><!-- /row -->
+				<hr>
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-6">
+						<h4 class="m-top-0"><small>預約叫車日期 / 時間：</small><br><span class="text-yellow">2014-05-22 11:30am</span></h4>
+					</div><!-- /col-sm-3 -->
+					<div class="col-xs-12 col-sm-4 col-md-3">
+						<h4 class="m-top-0"><small>訂單編號：</small><br>尚未產生</h4>
+					</div><!-- /col-sm-3 -->
+					<div class="col-xs-12 col-sm-4 col-md-3">
+						<span class="label label-danger">訂單取消</span>
+					</div><!-- /col-sm-2 -->
+				</div><!-- /row -->
+				<hr>
 				<div class="text-center">
 					<ul class="pagination">
 						<li><a href="#">&laquo;</a></li>
@@ -224,18 +206,34 @@
 <!-- Modal-driver-credential
 ================================================== -->
 <div class="modal fade" id="modal-driver-credential" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 				<h4 class="modal-title" id="myModalLabel">營業登記證</h4>
 			</div><!-- /modal-header -->
 			<div class="modal-body">
-				<img src="images/driver-credential.jpg" class="img-responsive">
+				<img src="images/driver-credential.jpg" class="img-responsive m-h-auto">
 			</div><!-- /modal-body -->
 		</div><!-- /modal-content -->
 	</div><!-- /modal-dialog -->
 </div><!-- /modal-driver-credential -->
+
+<!-- Modal-show-img
+================================================== -->
+<div class="modal fade" id="modal-show-img" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="myModalLabel">曬圖分享</h4>
+			</div><!-- /modal-header -->
+			<div class="modal-body">
+				<img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10414404_786373554734013_3778390995776627737_n.jpg?oh=1e00182a9cf15ae06911e22db7925279&oe=547B4546&__gda__=1417474860_36cff0baae5c8191d989a4e8f17d6dd0" class="img-responsive m-h-auto">
+			</div><!-- /modal-body -->
+		</div><!-- /modal-content -->
+	</div><!-- /modal-dialog -->
+</div><!-- /modal-show-img -->
 
 <!-- modal-driver-note
 ================================================== -->

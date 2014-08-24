@@ -30,20 +30,16 @@
 			<a class="navbar-brand" href="index.html">GoEasyTaxi</a>
 		</div><!-- /navbar-header -->
 		<!-- Collect the nav links, forms, and other content for toggling -->
-		<h2 class="navbar-left m-left-1">司機管理介面</h2>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<h2 class="navbar-h2">司機管理介面</h2>
 			<div class="nav navbar-nav navbar-right">
 				<p class="navbar-text m-right-1">登入身份：<a href-="driver-admin.html">A123456789</a></p>
-				<button type="button" class="btn btn-default navbar-btn" >登出</button>
+				<button type="button" onclick="self.location.href='index.html'" class="btn btn-default navbar-btn">登出</button>
 			</div>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container -->
 </nav><div class="container">
-	<ol class="breadcrumb m-top-3">
-		<li><a href="driver-admin.html">司機管理界面</a></li>
-		<li class="active">修改資料</li>
-	</ol><!-- /breadcrumb -->
-	<div class="row m-bottom-3">
+	<div class="row m-bottom-3 m-top-3">
 		<div class="col-sm-3">
 			<!-- driver-menu
 ================================================== -->
@@ -88,19 +84,13 @@
 							<form class="form-horizontal" role="form">
 								<div class="form-group">
 									<label class="col-sm-3 control-label">司機照片</label>
-									<div class="col-sm-7">
-										<div class="row">
-											<div class="col-sm-4">
-												<img src="images/driver-img-1.jpg" class="img-circle img-responsive img-thumbnail">
-											</div><!-- /col-sm-4 -->
-											<div class="col-sm-8">
-												<button type="button" class="btn btn-primary m-top-2">選擇照片</button>
-											</div><!-- /col-sm-8 -->
-										</div><!-- /row -->
-									</div><!-- /col-sm-7 -->
-									<div class="col-sm-7 col-sm-offset-3">
+									<div class="col-sm-9">
+										<div class="img-user img-user-lg m-right-1 pull-left">
+											<img src="images/driver-img-1.jpg">
+										</div><!-- /img-user -->
+										<button type="button" class="btn btn-primary">選擇照片</button>
 										<span class="help-block">建議尺寸 160px * 160px 以上</span>
-									</div><!-- /col-sm-7 -->
+									</div><!-- /col-sm-9 -->
 								</div><!-- /form-group -->
 								<div class="form-group">
 									<label class="col-sm-3 control-label">司機姓名</label>
@@ -510,18 +500,34 @@
 <!-- Modal-driver-credential
 ================================================== -->
 <div class="modal fade" id="modal-driver-credential" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 				<h4 class="modal-title" id="myModalLabel">營業登記證</h4>
 			</div><!-- /modal-header -->
 			<div class="modal-body">
-				<img src="images/driver-credential.jpg" class="img-responsive">
+				<img src="images/driver-credential.jpg" class="img-responsive m-h-auto">
 			</div><!-- /modal-body -->
 		</div><!-- /modal-content -->
 	</div><!-- /modal-dialog -->
 </div><!-- /modal-driver-credential -->
+
+<!-- Modal-show-img
+================================================== -->
+<div class="modal fade" id="modal-show-img" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="myModalLabel">曬圖分享</h4>
+			</div><!-- /modal-header -->
+			<div class="modal-body">
+				<img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10414404_786373554734013_3778390995776627737_n.jpg?oh=1e00182a9cf15ae06911e22db7925279&oe=547B4546&__gda__=1417474860_36cff0baae5c8191d989a4e8f17d6dd0" class="img-responsive m-h-auto">
+			</div><!-- /modal-body -->
+		</div><!-- /modal-content -->
+	</div><!-- /modal-dialog -->
+</div><!-- /modal-show-img -->
 
 <!-- modal-driver-note
 ================================================== -->

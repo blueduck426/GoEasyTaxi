@@ -15,7 +15,7 @@
 
 </head>
 <body>
-	<!-- header driver
+	<!-- header
 ================================================== -->
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container">
@@ -31,86 +31,49 @@
 		</div><!-- /navbar-header -->
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<h2 class="navbar-h2">管理員管理介面</h2>
-			<div class="nav navbar-nav navbar-right">
-				<button type="button" onclick="self.location.href='index.html'" class="btn btn-default navbar-btn">登出</button>
-			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="airport.html">機場接送</a></li>
+				<li><a href="travel.html">旅遊景點</a></li>
+				<li><a href="require.html">特殊需求</a></li>
+				<li><a href="links.html">相關資源</a></li>
+				<li><button type="button" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#modal-login">查詢預約</button></li>
+			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container -->
 </nav><div class="container">
 	<div class="row m-bottom-3 m-top-3">
-		<div class="col-sm-3">
-			<!-- admin-menu
-================================================== -->
-<div class="list-group">
-	<a class="list-group-item" href="admin-bills.html">帳務管理</a>
-	<a class="list-group-item" href="admin-orders.html">訂單管理</a>
-	<a class="list-group-item" href="admin-drivers.html">司機管理</a>
-	<a class="list-group-item" href="admin-customers.html">企業客戶管理</a>
-	<a class="list-group-item" href="admin-companys.html">合作廠商管理</a>
-  <a class="list-group-item" href="admin-events.html">首頁新聞上稿</a>
-  <a class="list-group-item" href="admin-banners.html">廣告版位上圖</a>
-</div><!-- /list-group -->
-		</div><!-- /col-sm-3 -->
-		<div class="col-sm-9">
+		<div class="col-sm-8 col-md-9 m-bottom-2">
 			<div class="content-block p-30">
-				<h5 class="text-yellow m-top-0">新增合作廠商</h5>
-				<form class="form-horizontal" role="form">
-					<div class="form-group">
-						<label class="col-sm-3 control-label">登入統一編號</label>
-						<div class="col-sm-5">
-							<input type="text" class="form-control" value="8432424323">
-						</div><!-- /col-sm-5 -->
-						<div class="col-sm-4">
-							<span class="help-block">help-text</span>
-						</div><!-- /col-sm-4 -->
-					</div><!-- /form-group -->
-					<div class="form-group">
-						<label class="col-sm-3 control-label">登入密碼</label>
-						<div class="col-sm-5">
-							<input type="text" class="form-control" value="1234">
-						</div><!-- /col-sm-5 -->
-						<div class="col-sm-4">
-							<span class="help-block">help-text</span>
-						</div><!-- /col-sm-4 -->
-					</div><!-- /form-group -->
-				</form><!-- /form-horizontal -->
-				<h5 class="text-yellow m-top-3">合作廠商資料</h5>
-				<form class="form-horizontal" role="form">
-					<div class="form-group">
-						<label class="col-sm-3 control-label">廠商名稱</label>
-						<div class="col-sm-5">
-							<input type="text" class="form-control" value="山水大飯店">
-						</div><!-- /col-sm-5 -->
-						<div class="col-sm-4">
-							<span class="help-block">help-text</span>
-						</div><!-- /col-sm-4 -->
-					</div><!-- /form-group -->
-					<div class="form-group">
-						<label class="col-sm-3 control-label">廠商地址</label>
-						<div class="col-sm-5">
-							<input type="text" class="form-control" value="台北市大安區仁愛路四段 28號">
-						</div><!-- /col-sm-5 -->
-						<div class="col-sm-4">
-							<span class="help-block">help-text</span>
-						</div><!-- /col-sm-4 -->
-					</div><!-- /form-group -->
-					<div class="form-group">
-						<label class="col-sm-3 control-label">聯絡電話</label>
-						<div class="col-sm-5">
-							<input type="tel" class="form-control" value="+886 912 333666">
-						</div><!-- /col-sm-5 -->
-						<div class="col-sm-4">
-							<span class="help-block">help-text</span>
-						</div><!-- /col-sm-4 -->
-					</div><!-- /form-group -->
-				</form><!-- /form-horizontal -->
-				<hr class="m-top-2 m-bottom-2">
-				<div class="text-right m-top-2">
-					<button type="button" class="btn btn-primary">新增</button>
-				</div><!-- /text-right -->
+				<h3 class="m-top-0">「台灣觀巴•臺灣逛吧」 暨旅遊護照發表，最低只要 6 折</h3>
+				<p>
+					台北桃園機場距離台北市區距離大約40公裡左右，尚未開通捷運，目前公共交通方式只有乘坐出租車或機場大巴可往返於台北市區。乘坐出租車（包含過路費）前往台北市區的平均價格為1400元新台幣左右（視目的地遠近而定）；大巴每人125-135元新台幣，花費時間大約80分鐘左右，到達市區後還需要轉車到達駐地。
+				</p>
+				<p>
+					如果您希望節約這段路程所花費的精力與時間，接送機服務無疑是您最好的選擇。包車會使從機場到市區的路程時間節約50%以上（正常情況下對比）。
+				</p>
+				<p>
+					台北桃園機場距離台北市區距離大約40公裡左右，尚未開通捷運，目前公共交通方式只有乘坐出租車或機場大巴可往返於台北市區。乘坐出租車（包含過路費）前往台北市區的平均價格為1400元新台幣左右（視目的地遠近而定）；大巴每人125-135元新台幣，花費時間大約80分鐘左右，到達市區後還需要轉車到達駐地。
+				</p>
+				<p>
+					如果您希望節約這段路程所花費的精力與時間，接送機服務無疑是您最好的選擇。包車會使從機場到市區的路程時間節約50%以上（正常情況下對比）。
+				</p>
+				<p>
+					台北桃園機場距離台北市區距離大約40公裡左右，尚未開通捷運，目前公共交通方式只有乘坐出租車或機場大巴可往返於台北市區。乘坐出租車（包含過路費）前往台北市區的平均價格為1400元新台幣左右（視目的地遠近而定）；大巴每人125-135元新台幣，花費時間大約80分鐘左右，到達市區後還需要轉車到達駐地。
+				</p>
+				<p>
+					如果您希望節約這段路程所花費的精力與時間，接送機服務無疑是您最好的選擇。包車會使從機場到市區的路程時間節約50%以上（正常情況下對比）。
+				</p>
 			</div><!-- /content-block -->
-		</div><!-- /col-sm-9 -->
+		</div><!-- /col-sm-8 -->
+		<div class="col-sm-4 col-md-3">
+			<!-- banner-block
+================================================== -->
+<ul class="list-unstyled">
+	<li><img src="images/banner-1.jpg" class="img-full m-bottom-1"></li>
+	<li><img src="images/banner-2.jpg" class="img-full m-bottom-1"></li>
+	<li><img src="images/banner-3.jpg" class="img-full m-bottom-1"></li>
+</ul>
+		</div><!-- /col-sm-4 -->
 	</div><!-- /row -->
 </div><!-- /container -->
 	<!-- Footer
