@@ -7446,12 +7446,12 @@ button.close {
 /* line 96, ../sass/_modals.scss */
 .modal-body {
   position: relative;
-  padding: 15px;
+  padding: 20px 30px;
 }
 
 /* line 102, ../sass/_modals.scss */
 .modal-footer {
-  padding: 15px;
+  padding: 20px 30px;
   text-align: right;
   border-top: 1px solid #e5e5e5;
 }
@@ -7503,10 +7503,15 @@ button.close {
     width: 300px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 151, ../sass/_modals.scss */
   .modal-lg {
     width: 600px;
+  }
+
+  /* line 152, ../sass/_modals.scss */
+  .modal-xlg {
+    width: 760px;
   }
 }
 /* line 7, ../sass/_tooltip.scss */
