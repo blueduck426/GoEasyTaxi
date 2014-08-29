@@ -1558,7 +1558,7 @@ img {
 /* line 170, ../sass/_scaffolding.scss */
 .img-credential {
   width: 200px;
-  min-height: 150px;
+  min-height: 120px;
   background-color: #ddd;
   overflow: hidden;
 }
