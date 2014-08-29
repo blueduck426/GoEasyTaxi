@@ -9225,3 +9225,50 @@ ul.stat-block li .stat-count {
 ul.stat-block li .stat-label {
   font-size: 13px;
 }
+
+/* line 9, ../sass/_video-block.scss */
+a.video-block {
+  display: block;
+  position: relative;
+  width: 100%;
+  background: #000;
+  text-align: center;
+}
+/* line 15, ../sass/_video-block.scss */
+a.video-block img {
+  width: 100%;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 20, ../sass/_video-block.scss */
+a.video-block h3 {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: -40px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 30, ../sass/_video-block.scss */
+a.video-block h3 .glyphicon {
+  font-size: 40px;
+}
+/* line 35, ../sass/_video-block.scss */
+a.video-block:hover img {
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+/* line 38, ../sass/_video-block.scss */
+a.video-block:hover h3 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
