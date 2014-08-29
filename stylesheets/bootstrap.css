@@ -1555,7 +1555,19 @@ img {
   width: 100%;
 }
 
-/* line 173, ../sass/_scaffolding.scss */
+/* line 170, ../sass/_scaffolding.scss */
+.img-credential {
+  width: 200px;
+  min-height: 150px;
+  background-color: #ddd;
+  overflow: hidden;
+}
+/* line 175, ../sass/_scaffolding.scss */
+.img-credential img {
+  width: 100%;
+}
+
+/* line 181, ../sass/_scaffolding.scss */
 hr {
   margin-top: 12px;
   margin-bottom: 12px;
@@ -1563,7 +1575,7 @@ hr {
   border-top: 1px solid #eeeeee;
 }
 
-/* line 185, ../sass/_scaffolding.scss */
+/* line 193, ../sass/_scaffolding.scss */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -1575,7 +1587,7 @@ hr {
   border: 0;
 }
 
-/* line 202, ../sass/_scaffolding.scss */
+/* line 210, ../sass/_scaffolding.scss */
 .sr-only-focusable:active, .sr-only-focusable:focus {
   position: static;
   width: auto;
