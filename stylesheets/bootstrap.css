@@ -1567,7 +1567,19 @@ img {
   width: 100%;
 }
 
-/* line 181, ../sass/_scaffolding.scss */
+/* line 179, ../sass/_scaffolding.scss */
+.img-car {
+  width: 100%;
+  min-height: 150px;
+  background-color: #ddd;
+  overflow: hidden;
+}
+/* line 184, ../sass/_scaffolding.scss */
+.img-car img {
+  width: 100%;
+}
+
+/* line 191, ../sass/_scaffolding.scss */
 hr {
   margin-top: 12px;
   margin-bottom: 12px;
@@ -1575,7 +1587,7 @@ hr {
   border-top: 1px solid #eeeeee;
 }
 
-/* line 193, ../sass/_scaffolding.scss */
+/* line 203, ../sass/_scaffolding.scss */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -1587,7 +1599,7 @@ hr {
   border: 0;
 }
 
-/* line 210, ../sass/_scaffolding.scss */
+/* line 220, ../sass/_scaffolding.scss */
 .sr-only-focusable:active, .sr-only-focusable:focus {
   position: static;
   width: auto;
