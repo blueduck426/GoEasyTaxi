@@ -9037,52 +9037,66 @@ button.close {
 }
 /* line 35, ../sass/_section-blocks.scss */
 .section-block.section-one .carousel .item-2 {
-  background: url(../images/index-cover-1.jpg) no-repeat center center;
+  background: url(../images/index-cover-2.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
 }
 /* line 41, ../sass/_section-blocks.scss */
 .section-block.section-one .carousel .item-3 {
-  background: url(../images/index-cover-1.jpg) no-repeat center center;
+  background: url(../images/index-cover-3.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
 }
 /* line 47, ../sass/_section-blocks.scss */
 .section-block.section-one .carousel .item-4 {
-  background: url(../images/index-cover-1.jpg) no-repeat center center;
+  background: url(../images/index-cover-4.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
 }
 /* line 53, ../sass/_section-blocks.scss */
 .section-block.section-one .carousel .item-5 {
-  background: url(../images/index-cover-1.jpg) no-repeat center center;
+  background: url(../images/index-cover-5.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
 }
-/* line 61, ../sass/_section-blocks.scss */
+/* line 59, ../sass/_section-blocks.scss */
+.section-block.section-one .carousel .item-6 {
+  background: url(../images/index-cover-6.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+/* line 65, ../sass/_section-blocks.scss */
+.section-block.section-one .carousel .item-7 {
+  background: url(../images/index-cover-7.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+/* line 73, ../sass/_section-blocks.scss */
 .section-block.section-two {
   text-align: center;
   background: #fff;
 }
-/* line 66, ../sass/_section-blocks.scss */
+/* line 78, ../sass/_section-blocks.scss */
 .section-block.section-four h1 {
   text-align: center;
 }
-/* line 69, ../sass/_section-blocks.scss */
+/* line 81, ../sass/_section-blocks.scss */
 .section-block.section-four h4 {
   height: 50.4px;
   overflow: hidden;
 }
-/* line 73, ../sass/_section-blocks.scss */
+/* line 85, ../sass/_section-blocks.scss */
 .section-block.section-four p {
   height: 119px;
   overflow: hidden;
 }
-/* line 78, ../sass/_section-blocks.scss */
+/* line 90, ../sass/_section-blocks.scss */
 .section-block.section-five {
   background: url(../images/airport-cover.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -9090,7 +9104,7 @@ button.close {
   background-size: cover;
   color: #fff;
 }
-/* line 85, ../sass/_section-blocks.scss */
+/* line 97, ../sass/_section-blocks.scss */
 .section-block.section-six {
   background: url(../images/require-cover.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -9098,17 +9112,17 @@ button.close {
   background-size: cover;
   color: #fff;
 }
-/* line 92, ../sass/_section-blocks.scss */
+/* line 104, ../sass/_section-blocks.scss */
 .section-block.section-seven {
   position: relative;
 }
-/* line 94, ../sass/_section-blocks.scss */
+/* line 106, ../sass/_section-blocks.scss */
 .section-block.section-seven .travel-bg,
 .section-block.section-seven .travel-tw,
 .section-block.section-seven .travel-icon {
   display: none;
 }
-/* line 99, ../sass/_section-blocks.scss */
+/* line 111, ../sass/_section-blocks.scss */
 .section-block.section-seven .travel-block {
   display: block;
   width: 45%;
@@ -9116,23 +9130,23 @@ button.close {
   margin: 0 2.5% 20px 2.5%;
 }
 @media (min-width: 768px) {
-  /* line 106, ../sass/_section-blocks.scss */
+  /* line 118, ../sass/_section-blocks.scss */
   .section-block.section-seven .travel-block {
     width: 30%;
     margin: 0 1.5% 20px 1.5%;
   }
 }
 @media (min-width: 992px) {
-  /* line 92, ../sass/_section-blocks.scss */
+  /* line 104, ../sass/_section-blocks.scss */
   .section-block.section-seven {
     padding: 0;
     min-height: 700px;
   }
-  /* line 114, ../sass/_section-blocks.scss */
+  /* line 126, ../sass/_section-blocks.scss */
   .section-block.section-seven h1 {
     display: none;
   }
-  /* line 117, ../sass/_section-blocks.scss */
+  /* line 129, ../sass/_section-blocks.scss */
   .section-block.section-seven .travel-bg {
     display: block;
     position: absolute;
@@ -9146,12 +9160,12 @@ button.close {
     background-size: cover;
     z-index: -1;
   }
-  /* line 130, ../sass/_section-blocks.scss */
+  /* line 142, ../sass/_section-blocks.scss */
   .section-block.section-seven .container {
     position: relative;
     height: 100%;
   }
-  /* line 134, ../sass/_section-blocks.scss */
+  /* line 146, ../sass/_section-blocks.scss */
   .section-block.section-seven .travel-tw {
     display: block;
     background: url(../images/travel-tw.png) no-repeat center bottom;
@@ -9162,148 +9176,148 @@ button.close {
     height: 640px;
     z-index: 0;
   }
-  /* line 144, ../sass/_section-blocks.scss */
+  /* line 156, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block {
     position: absolute;
     display: block;
     width: auto;
     margin: 0 auto;
   }
-  /* line 149, ../sass/_section-blocks.scss */
+  /* line 161, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block .travel-icon {
     display: block;
     -webkit-transform: scale(0.7);
     -moz-transform: scale(0.7);
     transform: scale(0.7);
   }
-  /* line 155, ../sass/_section-blocks.scss */
+  /* line 167, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block .travel-block-show {
     width: 200px;
     display: none;
     z-index: 1070;
     position: relative;
   }
-  /* line 161, ../sass/_section-blocks.scss */
+  /* line 173, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block:hover {
     text-decoration: none;
   }
-  /* line 163, ../sass/_section-blocks.scss */
+  /* line 175, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block:hover .travel-icon {
     -webkit-transform: scale(0.85);
     -moz-transform: scale(0.85);
     transform: scale(0.85);
   }
-  /* line 168, ../sass/_section-blocks.scss */
+  /* line 180, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block:hover .travel-block-show {
     display: block;
   }
-  /* line 172, ../sass/_section-blocks.scss */
+  /* line 184, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-01 {
     left: 46%;
     bottom: 79%;
   }
-  /* line 173, ../sass/_section-blocks.scss */
+  /* line 185, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-02 {
     left: 60%;
     bottom: 73%;
   }
-  /* line 174, ../sass/_section-blocks.scss */
+  /* line 186, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-03 {
     left: 69%;
     bottom: 60%;
   }
-  /* line 175, ../sass/_section-blocks.scss */
+  /* line 187, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-04 {
     left: 81%;
     bottom: 60%;
   }
-  /* line 176, ../sass/_section-blocks.scss */
+  /* line 188, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-05 {
     left: 43%;
     bottom: 65%;
   }
-  /* line 177, ../sass/_section-blocks.scss */
+  /* line 189, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-06 {
     left: 45%;
     bottom: 55%;
   }
-  /* line 178, ../sass/_section-blocks.scss */
+  /* line 190, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-07 {
     left: 54%;
     bottom: 56%;
   }
-  /* line 179, ../sass/_section-blocks.scss */
+  /* line 191, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-08 {
     left: 53%;
     bottom: 48%;
   }
-  /* line 180, ../sass/_section-blocks.scss */
+  /* line 192, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-09 {
     left: 42%;
     bottom: 44%;
   }
-  /* line 181, ../sass/_section-blocks.scss */
+  /* line 193, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-10 {
     left: 55%;
     bottom: 36%;
   }
-  /* line 182, ../sass/_section-blocks.scss */
+  /* line 194, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-11 {
     left: 63%;
     bottom: 33%;
   }
-  /* line 183, ../sass/_section-blocks.scss */
+  /* line 195, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-12 {
     left: 75%;
     bottom: 42%;
   }
-  /* line 184, ../sass/_section-blocks.scss */
+  /* line 196, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-13 {
     left: 85%;
     bottom: 48%;
   }
-  /* line 185, ../sass/_section-blocks.scss */
+  /* line 197, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-14 {
     left: 43%;
     bottom: 25%;
   }
-  /* line 186, ../sass/_section-blocks.scss */
+  /* line 198, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-15 {
     left: 31%;
     bottom: 20%;
   }
-  /* line 187, ../sass/_section-blocks.scss */
+  /* line 199, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-16 {
     left: 22%;
     bottom: 9%;
   }
-  /* line 188, ../sass/_section-blocks.scss */
+  /* line 200, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-17 {
     left: 55%;
     bottom: 12%;
   }
-  /* line 189, ../sass/_section-blocks.scss */
+  /* line 201, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block.travel-block-18 {
     left: 65%;
     bottom: 2%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 92, ../sass/_section-blocks.scss */
+  /* line 104, ../sass/_section-blocks.scss */
   .section-block.section-seven {
     min-height: 800px;
   }
-  /* line 194, ../sass/_section-blocks.scss */
+  /* line 206, ../sass/_section-blocks.scss */
   .section-block.section-seven .travel-tw {
     height: 800px;
   }
-  /* line 198, ../sass/_section-blocks.scss */
+  /* line 210, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block .travel-icon {
     -webkit-transform: scale(0.85);
     -moz-transform: scale(0.85);
     transform: scale(0.85);
   }
-  /* line 204, ../sass/_section-blocks.scss */
+  /* line 216, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block:hover .travel-icon {
     -webkit-transform: scale(0.95);
     -moz-transform: scale(0.95);
@@ -9311,17 +9325,17 @@ button.close {
   }
 }
 @media (min-width: 1440px) {
-  /* line 92, ../sass/_section-blocks.scss */
+  /* line 104, ../sass/_section-blocks.scss */
   .section-block.section-seven {
     min-height: 1200px;
   }
-  /* line 215, ../sass/_section-blocks.scss */
+  /* line 227, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block .travel-icon {
     -webkit-transform: scale(0.95);
     -moz-transform: scale(0.95);
     transform: scale(0.95);
   }
-  /* line 221, ../sass/_section-blocks.scss */
+  /* line 233, ../sass/_section-blocks.scss */
   .section-block.section-seven a.travel-block:hover .travel-icon {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -9330,28 +9344,28 @@ button.close {
 }
 
 @media (min-width: 992px) {
-  /* line 233, ../sass/_section-blocks.scss */
+  /* line 245, ../sass/_section-blocks.scss */
   .section-block h1 {
     font-size: 42px;
   }
 }
-/* line 239, ../sass/_section-blocks.scss */
+/* line 251, ../sass/_section-blocks.scss */
 .text-hidden {
   overflow: hidden;
   height: 47.6px;
 }
 
-/* line 243, ../sass/_section-blocks.scss */
+/* line 255, ../sass/_section-blocks.scss */
 .w-300 {
   width: 300px;
 }
 
-/* line 246, ../sass/_section-blocks.scss */
+/* line 258, ../sass/_section-blocks.scss */
 .bg-white {
   background: #fff;
 }
 
-/* line 249, ../sass/_section-blocks.scss */
+/* line 261, ../sass/_section-blocks.scss */
 .content-block,
 a.content-block {
   display: block;
@@ -9359,25 +9373,25 @@ a.content-block {
   border: 1px solid #ddd;
   color: #7C7C7C;
 }
-/* line 255, ../sass/_section-blocks.scss */
+/* line 267, ../sass/_section-blocks.scss */
 .content-block.tab-content,
 a.content-block.tab-content {
   border-top: none;
 }
-/* line 258, ../sass/_section-blocks.scss */
+/* line 270, ../sass/_section-blocks.scss */
 .content-block.yellow-block,
 a.content-block.yellow-block {
   border: 1px solid #f0aa43;
 }
 
-/* line 262, ../sass/_section-blocks.scss */
+/* line 274, ../sass/_section-blocks.scss */
 .agree-block {
   height: 350px;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-/* line 268, ../sass/_section-blocks.scss */
+/* line 280, ../sass/_section-blocks.scss */
 a.cart-block {
   background: #f0aa43;
   color: #fff;
@@ -9392,15 +9406,15 @@ a.cart-block {
   border-bottom-left-radius: 50%;
   border-top-left-radius: 50%;
 }
-/* line 280, ../sass/_section-blocks.scss */
+/* line 292, ../sass/_section-blocks.scss */
 a.cart-block:hover {
   text-decoration: none;
 }
-/* line 283, ../sass/_section-blocks.scss */
+/* line 295, ../sass/_section-blocks.scss */
 a.cart-block h2, a.cart-block p {
   margin: 0;
 }
-/* line 286, ../sass/_section-blocks.scss */
+/* line 298, ../sass/_section-blocks.scss */
 a.cart-block h2 small {
   color: #fff;
   margin-left: 7px;
